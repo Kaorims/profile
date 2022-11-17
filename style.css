@@ -44,6 +44,7 @@ button {
   font-size: 15px;
   background-color: rgb(2, 183, 183);
   color: white;
+  border: none;
 }
 
 button:hover {
@@ -64,17 +65,24 @@ button:hover {
   text-align: center;
 }
 
-.list {
+/* List of social profiles */
+.list-inline {
+  padding: 0px;
   list-style: none;
-  display: block;
-  padding-left: 0px;
 }
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
+  margin: 10px;
 }
 
+#social-box {
+  font-size: 30px;
+  color: rgb(2, 183, 183);
+
+}
+
+/* Media Queries */
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
